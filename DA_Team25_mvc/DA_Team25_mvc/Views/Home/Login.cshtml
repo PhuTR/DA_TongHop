@@ -1,0 +1,45 @@
+﻿
+@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section>
+    <div class="container pt-50 pb-40">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="contact-title text-center">Login</h2>
+            </div>
+            <div class="col-lg-6 mx-auto">
+                <form class="form-contact contact_form" action="" method="post" id="contactForm" novalidate="novalidate">
+                    <div class="form-contact contact_form">
+                        <div class="row">
+                           
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label>Username</label>
+                                    <input class="form-control valid" name="name" id="name" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" placeholder="Enter your name" required>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label>Password</label>
+                                    <input class="form-control valid" name="name" id="password" type="password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter password'" placeholder="Enter password" required>
+                                </div>
+                            </div>
+                           
+                        </div>
+                        <div class="form-group mt-3">
+                            <button type="submit" class="button button-contactForm boxed-btn">Login</button>
+                            <span class="clickLink"><a style="color:blue" asp-area="" asp-controller="Home" asp-action="Register">New User? Click Here...</a></span>
+                        </div>
+                       
+                    </div>
+                </form>
+
+
+            </div>
+        </div>
+    </div>
+</section>
+

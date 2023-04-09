@@ -1,0 +1,77 @@
+﻿
+@{
+    ViewData["Title"] = "Register";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section>
+    <div class="container pt-50 pb-40">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="contact-title text-center">Sign Up</h2>
+            </div>
+            <div class="col-lg-6 mx-auto">
+                <form class="form-contact contact_form" action="" method="post" id="contactForm" novalidate="novalidate">
+                    <div class="form-contact contact_form">
+                        <div class="row">
+                            <div class="col-12">
+                                <h6>Login Information</h6>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label>Username</label>
+                                    <input class="form-control valid" name="name" id="name" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" placeholder="Enter your name" required>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label>Password</label>
+                                    <input class="form-control valid" name="name" id="password" type="password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter password'" placeholder="Enter password" required>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label>Confirm Password</label>
+                                    <input class="form-control valid" name="confirmpassword" id="confirmpassword" type="password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter confirm password'" placeholder="Enter confirm passwod" required>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <h6>Personal Information</h6>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label>Full Name</label>
+                                    <input class="form-control valid" name="name" id="fullname" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter full name'" placeholder="Enter full name" required>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label>Address</label>
+                                    <input class="form-control valid" name="address" id="mobile" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter address'" placeholder="Enter Address" required>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label>Mobile Number</label>
+                                    <input class="form-control valid" name="mobile" id="mobile" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter mobile'" placeholder="Enter mobile" required>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label>Email</label>
+                                    <input class="form-control valid" name="email" id="email" type="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email'" placeholder="Enter email" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group mt-3">
+                            <button type="submit" class="button button-contactForm boxed-btn">Register</button>
+                        </div>
+
+                    </div>
+                </form>
+                
+                    
+            </div>
+            </div>
+    </div>
+</section>
